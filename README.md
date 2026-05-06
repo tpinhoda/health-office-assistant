@@ -5,14 +5,14 @@ Background health reminder daemon for office workers. Sends periodic notificatio
 ## Install
 
 ```bash
-pip install -e .
+uv sync              # install dependencies
 ```
 
 ## Usage
 
 ```bash
-hoa run      # Run the background health reminder daemon
-hoa tui      # Launch the TUI dashboard
-hoa status   # Show current progress
-hoa config   # Show current configuration
+uv run hoa run       # start daemon
+uv run hoa tui       # TUI dashboard
+uv run hoa status    # quick progress
+uv run hoa config    # view settings
 ```
