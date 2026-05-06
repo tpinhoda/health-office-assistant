@@ -1,0 +1,1 @@
+"""Windows toast notification delivery."""
