@@ -29,7 +29,9 @@ def run():
 @main.command()
 def tui():
     """Launch the TUI dashboard."""
-    click.echo("TUI not implemented yet")
+    from hoa.tui import run_tui
+
+    run_tui()
 
 
 @main.command()
